@@ -1,43 +1,16 @@
 ![GitHub Logo](https://i.imgur.com/DNW11Yt.png)
 Picture courtesy of Wackalope#6737
 
-[![GitHub issues](https://img.shields.io/github/issues/RedHawk989/EyeTrackVR?style=plastic)](https://github.com/RedHawk989/EyeTrackVR/issues) [![GitHub forks](https://img.shields.io/github/forks/RedHawk989/EyeTrackVR?style=plastic)](https://github.com/RedHawk989/EyeTrackVR/network) [![GitHub stars](https://img.shields.io/github/stars/RedHawk989/EyeTrackVR?style=plastic)](https://github.com/RedHawk989/EyeTrackVR/stargazers)
-
-- [EyeTrackVR](#eyetrackvr)
-      - [This project is in development and is not fully finished](#this-project-is-in-development-and-is-not-fully-finished)
-  - [Hardware](#hardware)
-  - [About IR Emitter Safety](#about-ir-emitter-safety)
-        - [Make sure you are using NON-focused emitters and at around 5ma total power](#make-sure-you-are-using-non-focused-emmiters-and-at-around-5ma-total-power)
-  - [Firmware](#firmware)
-  - [Headset support](#headset-support)
-      - [Contact](#contact)
-- [Licenses](#licenses)
-
-### [Documentation](https://redhawk989.github.io/EyeTrackVR/)
-
-# EyeTrackVR
+# EyeTrack-Open
 
 Open source and *affordable* VR eye tracker platform for [VRChat](https://hello.vrchat.com/) via `OSC` and `UDP` protocol.
 
 > [!IMPORTANT]\
 > This project is in active development and is not fully finished
 
-## Documentation
-Please check out our [documentation site](https://redhawk989.github.io/EyeTrackVR/)
-
-## Hardware
-
-3d files for mounting brackets will be found [here](https://github.com/RedHawk989/EyeTrackVR-Hardware)
-IR emitter files are also located there. For more info please reference our parts list on our [documentation site](https://redhawk989.github.io/EyeTrackVR/parts-list/)
-
-## ESP-CAM Firmware
-
-Current work has been with our official firmware by `lorow`, found [here](https://github.com/lorow/OpenIris).
-
 ## Headset support
 
 Any headset that can fit the camera and LEDs can likely be supported, however, mounts may not have been made for it. Please reference to our [parts list](https://redhawk989.github.io/EyeTrackVR/parts-list/#other-parts) for details.
-
 
 ## About IR Emitter Safety
 
@@ -56,20 +29,6 @@ This includes visually checking with an IR camera that the brightness is correct
 
 [AN002_Details on photobiological safety of LED light sources](https://github.com/RedHawk989/EyeTrackVR/blob/docs/docs/Reference_Docs/saftey/AN002_Details_on_photobiological_safety_of_LED_light_sources.pdf)
 
-## Contact
+## License
 
-Please join our Discord for updates and any questions.
-
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kkXYbVykZX)
-
-## Licenses
-
-***Most software is licensed under GNU GPLv3, with most tracking algorithims under Summer Software Distribution License 1.0. Each file has its license noted in the beginning of the file for clarity.
-
-All documentation, including the [Wiki](https://github.com/RedHawk989/EyeTrackVR/wiki), is under the Creative Commons CC-BY-SA-4.0 license***.
-
-<!-- <div align="center">
-<img src="./docs/assets/images/licenses/licenses.svg" width="300" alt="Open Licenses" />
-</div> -->
-
-[Top](#eyetrackvr)
+Eyetrack-Open is licensed under GPL-3.0-or-later.

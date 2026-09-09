@@ -6,7 +6,7 @@ EyeTrackApp/blink.py
   From EyeTrackVR (https://github.com/EyeTrackVR/EyeTrackVR) at commit
   5b48d5d73575b266374236fdf46c1ed347ce1199, under the MIT License then
   in force. Copyright (c) 2023 EyeTrackVR. Algorithm credits per each
-  file's header. Full MIT text: LICENSES/MIT-EyeTrackVR.txt
+  file's header.
 
   ransac.py implements a 3D eye model using pye3d by Pupil Labs,
-  licensed LGPL-3.0. See LICENSES/LGPL-3.0.txt
+  licensed LGPL-3.0.
